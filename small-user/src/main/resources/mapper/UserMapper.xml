@@ -3,5 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.myzy.small.user.mapper.UserMapper">
-    
+    <select id="selectAllUser" resultType="com.myzy.small.user.bean.UserInfo">
+        SELECT * FROM user_table;
+    </select>
 </mapper>
