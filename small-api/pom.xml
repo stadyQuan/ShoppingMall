@@ -16,6 +16,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>small-api-user</module>
+        <module>small-api-pms</module>
     </modules>
 
     <dependencies>

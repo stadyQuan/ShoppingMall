@@ -1,4 +1,4 @@
-package com.myzy.small.smallmanageservice;
+package com.myzy.small.manage;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
